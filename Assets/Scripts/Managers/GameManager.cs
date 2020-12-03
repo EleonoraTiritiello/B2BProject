@@ -1,8 +1,9 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 using B2B.Contracts;
-using System;
+using B2B.StateManagement.ErrorHandling;
 
 namespace B2B.Managers
 {
@@ -38,7 +39,7 @@ namespace B2B.Managers
 
         private Animator _animator;
 
-        private readonly Dictionary<States, string> _animationDictionary = new Dictionary<States, string>
+        private readonly Dictionary<States, string> _animatorTriggers = new Dictionary<States, string>
         {
             { States.MainMenuLayer, "GoToMainMenuLayer"},
             { States.Register, "GoToRegister"},
@@ -73,7 +74,10 @@ namespace B2B.Managers
 
         public void ChangeState(States state)
         {
-            _animator.SetTrigger(_animationDictionary[state]);
+            if (!_animatorTriggers.ContainsKey(state))
+                throw new StateNotFoundException($"No trigger was found on object '{name}' leading to state '{state}'");
+
+            _animator.SetTrigger(_animatorTriggers[state]);
 
             CurrentState = state;
 
