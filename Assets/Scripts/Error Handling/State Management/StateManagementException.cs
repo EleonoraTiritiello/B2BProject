@@ -2,6 +2,9 @@
 
 namespace B2B.StateManagement.ErrorHandling
 {
+    /// <summary>
+    /// Class <c> StateManagementException </c> is a generic exception for errors involving a state machine
+    /// </summary>
     public class StateManagementException : Exception
     {
         public StateManagementException() : base("An error occurred in the state management") { }

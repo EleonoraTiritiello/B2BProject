@@ -21,7 +21,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: GoToCredits
+    m_ConditionEvent: GoToCredit
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2740460612108406515}
@@ -548,7 +548,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: GoToCredits
+  - m_Name: GoToCredit
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -793,7 +793,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Credits
+  m_Name: Credit
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:

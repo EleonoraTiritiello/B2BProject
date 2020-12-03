@@ -7,6 +7,9 @@ using B2B.StateManagement.ErrorHandling;
 
 namespace B2B.Managers
 {
+    /// <summary>
+    /// Class <c> GameManager </c> manages all those tasks that are not the responsibility of the other scripts
+    /// </summary>
     [RequireComponent(typeof(Animator))]
     public sealed class GameManager : Singleton<GameManager>, IStateMachine<GameManager.States>
     {
@@ -14,6 +17,9 @@ namespace B2B.Managers
 
         #region Public Variables
 
+        /// <summary>
+        /// The game states
+        /// </summary>
         public enum States
         {
             GameSetup,
@@ -21,7 +27,7 @@ namespace B2B.Managers
             Register,
             MainMenu,
             Options,
-            Credits,
+            Credit,
             Profile,
             Achievements,
             GameplayLayer,
@@ -31,21 +37,30 @@ namespace B2B.Managers
             LevelCompleted,
         }
 
+        /// <summary>
+        /// The current game state
+        /// </summary>
         public States CurrentState { get; private set; }
 
         #endregion
 
         #region Private Variables
 
+        /// <summary>
+        /// The component with which the state machine is implemented
+        /// </summary>
         private Animator _animator;
 
+        /// <summary>
+        /// A dictionary that relates a state and its corresponding trigger in the animator
+        /// </summary>
         private readonly Dictionary<States, string> _animatorTriggers = new Dictionary<States, string>
         {
             { States.MainMenuLayer, "GoToMainMenuLayer"},
             { States.Register, "GoToRegister"},
             { States.MainMenu, "GoToMainMenu" },
             { States.Options, "GoToOptions"},
-            { States.Credits, "GoToCredits"},
+            { States.Credit, "GoToCredit"},
             { States.Profile, "GoToProfile"},
             { States.Achievements, "GoToAchievements"},
             { States.GameplayLayer, "GoToGameplayLayer"},
@@ -55,6 +70,9 @@ namespace B2B.Managers
             { States.LevelCompleted, "GoToLevelCompleted"}
         };
 
+        /// <summary>
+        /// An event that is called when a change of state occurs
+        /// </summary>
         public event Action<States> OnStateChanged;
 
         #endregion
@@ -72,6 +90,10 @@ namespace B2B.Managers
 
         #region Public Methods
 
+        /// <summary>
+        /// Change the game state
+        /// </summary>
+        /// <param name="state"> The state that needs to be set </param>
         public void ChangeState(States state)
         {
             if (!_animatorTriggers.ContainsKey(state))

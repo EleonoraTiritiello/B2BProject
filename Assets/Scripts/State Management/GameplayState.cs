@@ -4,6 +4,9 @@ using B2B.Managers;
 
 namespace B2B.StateManagement
 {
+    /// <summary>
+    /// Class <c> GameplayState </c> runs the code related to the main gameplay
+    /// </summary>
     public class GameplayState : StateMachineBehaviour
     {
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

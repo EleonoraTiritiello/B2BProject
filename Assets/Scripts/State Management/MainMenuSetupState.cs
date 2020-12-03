@@ -4,6 +4,9 @@ using B2B.Managers;
 
 namespace B2B.StateManagement
 {
+    /// <summary>
+    /// Class <c> MainMenuSetupState </c> initializes everything needed for the main menu to function properly
+    /// </summary>
     public class MainMenuSetupState : StateMachineBehaviour
     {
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
