@@ -14,9 +14,9 @@ namespace B2B.StateManagement
             if (Input.GetKeyDown(InputManager.GetInstance.NextStateKey))
                 GameManager.GetInstance.ChangeState(GameManager.States.Pause);
             else if (Input.GetKeyDown(InputManager.GetInstance.NextStateOption1Key))
-                GameManager.GetInstance.ChangeState(GameManager.States.LevelFailed);
+                GameManager.GetInstance.ChangeState(GameManager.States.PuzzleMode);
             else if (Input.GetKeyDown(InputManager.GetInstance.NextStateOption2Key))
-                GameManager.GetInstance.ChangeState(GameManager.States.LevelCompleted);
+                GameManager.GetInstance.ChangeState(GameManager.States.InfoMode);
         }
     }
 }

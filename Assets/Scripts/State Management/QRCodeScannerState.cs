@@ -5,9 +5,9 @@ using B2B.Managers;
 namespace B2B.StateManagement
 {
     /// <summary>
-    /// Class <c> OptionsState </c> runs the code related to the options menu
+    /// Class <c> QRCodeScannerState </c> runs the code that allows you to start scanning a QR code
     /// </summary>
-    public class OptionsState : StateMachineBehaviour
+    public class QRCodeScannerState : StateMachineBehaviour
     {
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
         {

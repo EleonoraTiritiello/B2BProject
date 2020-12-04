@@ -19,6 +19,7 @@ namespace B2B.Managers
         public KeyCode NextStateOption2Key = KeyCode.Alpha2;
         public KeyCode NextStateOption3Key = KeyCode.Alpha3;
         public KeyCode NextStateOption4Key = KeyCode.Alpha4;
+        public KeyCode NextStateOption5Key = KeyCode.Alpha5;
 
         #endregion
 
