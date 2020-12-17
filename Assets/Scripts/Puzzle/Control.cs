@@ -9,7 +9,7 @@ public class Control : MonoBehaviour
         cacca();
         if (cacca() == true)
         {
-            Debug.Log("Hai vinto coglionazzo adesso vai a giocare a cyberpunk");
+            Debug.Log("Hai vinto bamboccio adesso vai a giocare a cyberpunk");
             transform.GetChild(8).gameObject.SetActive(true);
             for (int i = 0; i < gameObject.transform.childCount; i++)
                 gameObject.transform.GetChild(i).GetComponent<Movement>().isSelectable = false;
