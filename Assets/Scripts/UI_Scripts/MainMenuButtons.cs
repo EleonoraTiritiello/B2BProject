@@ -3,6 +3,8 @@
 public class MainMenuButtons : MonoBehaviour
 {
     [SerializeField]
+    private GameObject mainMenu;
+    [SerializeField]
     private GameObject exitConfirm;
     [SerializeField]
     private GameObject externalSiteDialog;
@@ -67,10 +69,18 @@ public class MainMenuButtons : MonoBehaviour
     public void ToQuestsAndBadgesScreen()
     {
         questsAndBadgesScreen.SetActive(true);
+        mainMenu.SetActive(false);
 
         questsDailiesScreen.SetActive(true);
         dailiesButtonIconActive.SetActive(false);
         dailiesButtonIconDeactivated.SetActive(true);
+
+        milestonesButtonIconActive.SetActive(true);
+        milestonesButtonIconDeactivated.SetActive(false);
+
+        badgesButtonIconActive.SetActive(true);
+        badgesButtonIconDeactivated.SetActive(false);
+
     }
 
     public void ToDailiesScreen()
@@ -132,6 +142,8 @@ public class MainMenuButtons : MonoBehaviour
 
         badgesButtonIconActive.SetActive(false);
         badgesButtonIconDeactivated.SetActive(false);
+
+        mainMenu.SetActive(true);
     }
 
     public void ToProfileScreen()
