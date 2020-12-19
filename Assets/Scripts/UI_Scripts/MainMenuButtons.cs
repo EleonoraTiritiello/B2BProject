@@ -17,6 +17,23 @@ public class MainMenuButtons : MonoBehaviour
     [SerializeField]
     private GameObject profileScreen;
 
+    [SerializeField]
+    private GameObject dailiesButtonIconActive;
+    [SerializeField]
+    private GameObject dailiesButtonIconDeactivated;
+
+    [SerializeField]
+    private GameObject milestonesButtonIconActive;
+    [SerializeField]
+    private GameObject milestonesButtonIconDeactivated;
+
+    [SerializeField]
+    private GameObject badgesButtonIconActive;
+    [SerializeField]
+    private GameObject badgesButtonIconDeactivated;
+
+
+
     public void ExitButton()
     {
         exitConfirm.SetActive(true);
@@ -50,28 +67,55 @@ public class MainMenuButtons : MonoBehaviour
     public void ToQuestsAndBadgesScreen()
     {
         questsAndBadgesScreen.SetActive(true);
+
         questsDailiesScreen.SetActive(true);
+        dailiesButtonIconActive.SetActive(false);
+        dailiesButtonIconDeactivated.SetActive(true);
     }
 
     public void ToDailiesScreen()
     {
         questsDailiesScreen.SetActive(true);
+        dailiesButtonIconActive.SetActive(false);
+        dailiesButtonIconDeactivated.SetActive(true);
+
         questsMilestonesScreen.SetActive(false);
+        milestonesButtonIconActive.SetActive(true);
+        milestonesButtonIconDeactivated.SetActive(false);
+
         badgesScreen.SetActive(false);
+        badgesButtonIconActive.SetActive(true);
+        badgesButtonIconDeactivated.SetActive(false);
     }
 
     public void ToMilestonesScreen()
     {
         questsDailiesScreen.SetActive(false);
+        dailiesButtonIconActive.SetActive(true);
+        dailiesButtonIconDeactivated.SetActive(false);
+
         questsMilestonesScreen.SetActive(true);
+        milestonesButtonIconActive.SetActive(false);
+        milestonesButtonIconDeactivated.SetActive(true);
+
         badgesScreen.SetActive(false);
+        badgesButtonIconActive.SetActive(true);
+        badgesButtonIconDeactivated.SetActive(false);
     }
 
     public void ToBadgesScreen()
     {
         questsDailiesScreen.SetActive(false);
+        dailiesButtonIconActive.SetActive(true);
+        dailiesButtonIconDeactivated.SetActive(false);
+
         questsMilestonesScreen.SetActive(false);
+        milestonesButtonIconActive.SetActive(true);
+        milestonesButtonIconDeactivated.SetActive(false);
+
         badgesScreen.SetActive(true);
+        badgesButtonIconActive.SetActive(false);
+        badgesButtonIconDeactivated.SetActive(true);
     }
     public void ExitQuestsAndBadgesScreen()
     {
@@ -79,6 +123,15 @@ public class MainMenuButtons : MonoBehaviour
         questsDailiesScreen.SetActive(false);
         questsMilestonesScreen.SetActive(false);
         badgesScreen.SetActive(false);
+
+        dailiesButtonIconActive.SetActive(false);
+        dailiesButtonIconDeactivated.SetActive(false);
+
+        milestonesButtonIconActive.SetActive(false);
+        milestonesButtonIconDeactivated.SetActive(false);
+
+        badgesButtonIconActive.SetActive(false);
+        badgesButtonIconDeactivated.SetActive(false);
     }
 
     public void ToProfileScreen()
