@@ -34,6 +34,12 @@ public class MainMenuButtons : MonoBehaviour
     [SerializeField]
     private GameObject badgesButtonIconDeactivated;
 
+    [SerializeField]
+    private GameObject soundButtonOnIcon;
+    [SerializeField]
+    private GameObject soundButtonOffIcon;
+
+
 
 
     public void ExitButton()
@@ -153,6 +159,17 @@ public class MainMenuButtons : MonoBehaviour
     public void ExitProfileScreen()
     {
         profileScreen.SetActive(false);
+    }
+
+    public void DisableSound()
+    {
+        soundButtonOnIcon.SetActive(false);
+        soundButtonOffIcon.SetActive(true);
+    }
+    public void EnableSound()
+    {
+        soundButtonOnIcon.SetActive(true);
+        soundButtonOffIcon.SetActive(false);
     }
 
 }
