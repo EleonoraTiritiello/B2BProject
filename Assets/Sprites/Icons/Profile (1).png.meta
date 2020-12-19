@@ -152,7 +152,7 @@ TextureImporter:
         width: 69
         height: 65
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,7 +173,7 @@ TextureImporter:
         width: 2456
         height: 1312
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,6 +181,27 @@ TextureImporter:
       bones: []
       spriteID: 468c653ceec5828c0800000000000000
       internalID: -4023864086506321820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Profile (1)_1
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1434
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4b7c99d23946e90800000000000000
+      internalID: -7033334893983058756
       vertices: []
       indices: 
       edges: []
