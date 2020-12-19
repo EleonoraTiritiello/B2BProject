@@ -23,6 +23,8 @@ namespace B2B.Managers
 
         #endregion
 
+        public int SelectionKey = 0;
+
         #endregion
     }
 }

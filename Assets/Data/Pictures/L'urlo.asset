@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a52f9953f50bc9439f2dc6a0f69028b, type: 3}
+  m_Name: L'urlo
+  m_EditorClassIdentifier: 
+  Artwork: {fileID: 21300000, guid: 4fef68cffe3ae1042905599a02c6335d, type: 3}
+  Author: Edvard Munch
+  Date: 1893
+  Description: "L'urlo \xE8 il nome assegnato a una serie di famosi dipinti del pittore
+    norvegese Edvard Munch. Quadro molto simile \xE8 L'ansia, sempre di Munch."

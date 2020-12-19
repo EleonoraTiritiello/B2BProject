@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MemoryPuzzle.unity
+    guid: 0c161b93d3588c744b53bc15b438f0bb
   m_configObjects: {}

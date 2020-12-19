@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a52f9953f50bc9439f2dc6a0f69028b, type: 3}
+  m_Name: Il Bacio
+  m_EditorClassIdentifier: 
+  Artwork: {fileID: 21300000, guid: c561d18b81fff5f4b9966611e9de7ba8, type: 3}
+  Author: Klimt
+  Date: 1907-1908
+  Description: "Al centro di un luogo etereo ed astratto due amanti si stringono
+    e si abbandonano ad un bacio intenso; la fanciulla \xE8 pienamente abbandonata
+    nell'amplesso, con gli occhi chiusi in una posizione estatica, mentre l'uomo
+    - del quale si intravede solo il profilo - stringe la testa dell'amata con delicatezza,
+    protendendosi verso di lei in segno protettivo e di affetto. I due giovani innamorati,
+    avvolti entrambi in lunghe tuniche mosaicate che ne celano i corpi, sono inginocchiati
+    su un piccolo rettangolo erboso che richiama l'iconografia dei medievali hortus
+    conclusus: neanche la vivace policromia del prato fiorito, tuttavia, riesce a
+    spezzare il loro idillio amoroso. Il tema dell'amore e delle umane passioni era
+    gi\xE0 stato trattato numerose volte nella produzione klimtiana, dove ricorre
+    frequentemente (specialmente in Amore, nel Fregio di Beethoven, e nell'Abbraccio
+    del Fregio Stoclet); ci\xF2 malgrado, \xE8 solo in quest'opera che Klimt riesce
+    a trasportare in pittura quel momento effimero in cui l'universo maschile e quello
+    femminile riescono finalmente a compenetrarsi, in un attimo fuggente di sympatheia
+    dell'amore."

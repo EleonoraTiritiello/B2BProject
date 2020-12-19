@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a52f9953f50bc9439f2dc6a0f69028b, type: 3}
+  m_Name: Notte Stellata
+  m_EditorClassIdentifier: 
+  Artwork: {fileID: 21300000, guid: c561d18b81fff5f4b9966611e9de7ba8, type: 3}
+  Author: Vincent van Gogh
+  Date: 1889
+  Description: "Notte stellata \xE8 un dipinto del pittore olandese Vincent van Gogh,
+    realizzato nel 1889 e conservato al Museum of Modern Art di New York. Vera e
+    propria icona della pittura occidentale, il dipinto raffigura un paesaggio notturno
+    di Saint-R\xE9my-de-Provence, poco prima del sorgere del sole."
