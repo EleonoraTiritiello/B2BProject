@@ -6902,7 +6902,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 246c4c86c31b3d94eb7ff02370e6fe96, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 02921ac1b8b2b074794c56f675ed4b18, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18275,7 +18275,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7a335b337e820554e8d79882eb03dc0a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: de9d01c8ffd52eb4aad6869b72437416, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -19800,7 +19800,7 @@ GameObject:
   - component: {fileID: 1688439349}
   - component: {fileID: 1688439348}
   m_Layer: 5
-  m_Name: Badges
+  m_Name: Quests
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
