@@ -1077,7 +1077,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 65890988}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 607819504}
+        m_MethodName: ToGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &65890988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7063,6 +7074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 607819502}
   - component: {fileID: 607819503}
+  - component: {fileID: 607819504}
   m_Layer: 0
   m_Name: UI_Menu
   m_TagString: Untagged
@@ -7115,6 +7127,18 @@ MonoBehaviour:
   badgesButtonIconDeactivated: {fileID: 796622019}
   soundButtonOnIcon: {fileID: 898669972}
   soundButtonOffIcon: {fileID: 285860059}
+--- !u!114 &607819504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607819501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8424032b7245614c8578f5e19fe726a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &611161763
 GameObject:
   m_ObjectHideFlags: 0
