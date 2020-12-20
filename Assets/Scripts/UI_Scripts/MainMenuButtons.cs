@@ -155,10 +155,12 @@ public class MainMenuButtons : MonoBehaviour
     public void ToProfileScreen()
     {
         profileScreen.SetActive(true);
+        mainMenu.SetActive(false);
     }
     public void ExitProfileScreen()
     {
         profileScreen.SetActive(false);
+        mainMenu.SetActive(true);
     }
 
     public void DisableSound()
