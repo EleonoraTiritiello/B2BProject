@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/UI.unity
     guid: 14b7d4943881d054eb098a941b1830fe
   - enabled: 1
-    path: Assets/Blockout/Blockout.unity
+    path: Assets/Scenes/Blockout.unity
     guid: 365d8780fed67a54c9cab396624f5af5
   - enabled: 1
     path: Assets/Scenes/PuzzleScene.unity
