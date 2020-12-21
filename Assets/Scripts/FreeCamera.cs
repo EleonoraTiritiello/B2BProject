@@ -11,6 +11,11 @@ public class FreeCamera : MonoBehaviour
     public float sensitivityX = 3f;
     public float sensitivityY = 1f;
 
+    private void Start()
+    {
+        transform.position = new Vector3(0, 1, 0);
+    }
+
     private void Update()
     {
         currentX += cameraJoystick.inputDirection.x * sensitivityX;
