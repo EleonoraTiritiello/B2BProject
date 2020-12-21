@@ -1,1 +1,5 @@
-Avvicinarsi al quadro per far aprire un pulsante su di esso, premere spazio per poter usare il mouse
+Ho aggiunto un pulsante sotto il quadro e ho inserito le mie cose nella scena puzzle
+
+Se il player si avvicina al quadro del ritrovamento del corpo di san marco apparira un pulsante che portera alla scena di gioco
+
+la soluzione per il puzzle è  ← ← ↓ → ↑ → ↓ ← ← ↑ → ↓ ↓ ← ↑ → ↓ → ↑ ← ↓ ← ↑ → → ↑

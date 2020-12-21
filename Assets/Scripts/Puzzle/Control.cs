@@ -7,16 +7,9 @@ public class Control : MonoBehaviour
 {
     private void FixedUpdate()
     {
-
         Check();
-        if (Check() == true)
-        {
-            transform.GetChild(8).gameObject.SetActive(true);
-            for (int i = 0; i < gameObject.transform.childCount; i++)
-                gameObject.transform.GetChild(i).GetComponent<Movement>().isSelectable = false;
-
-        }
     }
+
     public bool Check()
     {
         for (int i = 0; i < gameObject.transform.childCount; i++)
